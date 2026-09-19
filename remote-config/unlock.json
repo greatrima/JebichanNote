@@ -1,3 +1,10 @@
 {
-  "unlockCode": "KPOST0919"
+  "unlock": {
+    "code": "KPOST-82XM",
+    "enabled": true
+  },
+  "api": {
+    "VWORLD_API_KEY": "F7714818-4C1D-4EFE-BD85-D73C106571FC",
+    "version": 1
+  }
 }
