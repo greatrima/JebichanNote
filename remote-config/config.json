@@ -1,10 +1,51 @@
 {
   "unlock": {
-    "code": "0000",
-    "enabled": true
+    "enabled": true,
+    "defaultLevel": 1,
+    "cumulative": true,
+    "allowDowngrade": false,
+    "levels": [
+      {
+        "level": 1,
+        "permissions": [
+          "vworld_api"
+        ]
+      },
+      {
+        "level": 2,
+        "code": "kpost",
+        "permissions": [
+          "naver_api"
+        ]
+      },
+      {
+        "level": 3,
+        "code": "kpostjebi",
+        "permissions": [
+          "jebichan_note",
+          "mode_switch",
+          "notebook_theme",
+          "notebook_dark_mode",
+          "notebook_icon"
+        ]
+      },
+      {
+        "level": 4,
+        "code": "0000_0000",
+        "permissions": [
+          "developer_mode_toggle"
+        ]
+      }
+    ]
   },
   "api": {
     "VWORLD_API_KEY": "F7714818-4C1D-4EFE-BD85-D73C106571FC",
+    "version": 2
+  },
+  "schemaVersion": 2,
+  "api2": {
+    "NAVER_CLIENT_ID": "ch005pzuwn",
+    "NAVER_CLIENT_SECRET": "CULYmzl0itiUhSAbDNNF1ztvIr2WuWD5xkPI1KFM",
     "version": 1
   }
 }
